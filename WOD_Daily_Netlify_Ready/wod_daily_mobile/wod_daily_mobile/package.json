@@ -1,0 +1,28 @@
+{
+  "name": "wod-daily-mobile",
+  "version": "1.1.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:web": "expo export --platform web",
+    "build:android:preview": "eas build --platform android --profile preview",
+    "build:android": "eas build --platform android --profile production"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~58.0.0",
+    "expo-notifications": "~0.36.0",
+    "expo-status-bar": "~3.0.0",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-web": "~0.21.0",
+    "@expo/metro-runtime": "~6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2"
+  }
+}

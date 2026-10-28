@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "WOD Daily",
+    "slug": "wod-daily-mobile",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#090c10"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.woddaily.app"
+    },
+    "android": {
+      "package": "com.woddaily.app"
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "name": "WOD Daily",
+      "shortName": "WOD Daily",
+      "themeColor": "#caff45",
+      "backgroundColor": "#090c10",
+      "display": "standalone",
+      "orientation": "portrait"
+    }
+  }
+}

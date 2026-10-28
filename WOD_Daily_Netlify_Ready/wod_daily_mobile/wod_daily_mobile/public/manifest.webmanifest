@@ -1,0 +1,12 @@
+{
+  "name": "WOD Daily",
+  "short_name": "WOD Daily",
+  "description": "Your daily functional fitness workout, timer and training log.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090c10",
+  "theme_color": "#caff45",
+  "icons": []
+}
